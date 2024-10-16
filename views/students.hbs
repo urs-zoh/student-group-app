@@ -1,0 +1,10 @@
+<h2>Student List</h2>
+
+{{#each groups}}
+<h3>Group: {{@key}}</h3>
+<ul>
+    {{#each this}}
+    <li>{{this.name}}</li>
+    {{/each}}
+</ul>
+{{/each}}
